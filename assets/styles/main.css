@@ -34,14 +34,37 @@ body {
 }
 
 .main-page-col {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     height: 100%;
+    position: relative;
+    overflow: hidden;
 }
 
 .main-page-left {
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
 }
 
 .main-page-right {
-    border: 1px solid green;
+    /*border: 1px solid green;*/
+}
+
+.left-inner-box{
+    width: 50%;
+    position: absolute;
+    bottom: 180px;
+    right: 10px;
+    color: white;   
+}
+
+.left-buttons .btn{
+    width: 46%;
+    margin: 1%;
+    float: left;
+}
+
+.main-page-phones {
+    position: absolute;
+    bottom: -50px;
+    left: 20px;
+    width: 70%;
 }
